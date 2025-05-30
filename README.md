@@ -1,3 +1,25 @@
+Actors: Admin, Merchant, Customer
+
+Admin:
+ - Manage Users (CRUD)
+ - Manage Products (CRUD)
+ - View Orders
+ - View System Health (via Actuator)
+ - Generate Reports
+
+Merchant:
+ - Add/Update Products
+ - View Inventory
+ - Fulfill Orders
+
+Customer:
+ - Register/Login
+ - Browse Products
+ - Place Orders
+ - View Order History
+ - Make Payments
+
+
 +------------------+        +------------------+         +------------------+
 |     User         |        |      Role        |         |   Product        |
 +------------------+        +------------------+         +------------------+
